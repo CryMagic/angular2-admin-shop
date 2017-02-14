@@ -1,3 +1,22 @@
+/*CORE CSS FRAME WORK START*/
+@import "assets/plugins/pace/pace-theme-flash.css";
+@import "assets/plugins/bootstrap/css/bootstrap.min.css";
+@import "assets/plugins/bootstrap/css/bootstrap-theme.min.css";
+@import "assets/fonts/css/font-awesome.min.css";
+@import "assets/css/animate.min.css";
+@import "assets/plugins/perfect-scrollbar/perfect-scrollbar.css";
+/*CORE CSS FRAMEWORK END*/
+
+/*HEADER SCRIPTS INCLUDED ON THIS PAGE - START*/
+@import "assets/plugins/morris-chart/css/morris.css";
+@import "assets/plugins/jquery-ui/smoothness/jquery-ui.min.css";
+/*HEADER SCRIPTS INCLUDED ON THIS PAGE - END*/
+
+/*CORE CSS TEMPLATE - START*/
+@import "assets/css/style.css";
+@import "assets/css/responsive.css";
+/*CORE CSS TEMPLATE - END*/
+
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
