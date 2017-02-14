@@ -6,10 +6,16 @@ import { FormsModule } from '@angular/forms';
 import { appRoutes } from './app.routes'
 
 import { AppComponent }  from './app.component';
+import { SideBarComponent } from './shared/sidebar/sidebar.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpModule, appRoutes ],
-  declarations: [ AppComponent ],
+  declarations: [ 
+    AppComponent,
+    SideBarComponent,
+    HeaderComponent
+ ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
