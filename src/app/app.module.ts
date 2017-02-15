@@ -9,6 +9,7 @@ import { AppComponent }  from './app.component';
 import { SideBarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpModule, appRoutes ],
@@ -16,7 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     SideBarComponent,
     HeaderComponent,
-    DashboardComponent    
+    DashboardComponent,
+    CategoryComponent    
  ],
   bootstrap:    [ AppComponent ]
 })
