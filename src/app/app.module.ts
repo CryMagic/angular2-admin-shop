@@ -8,13 +8,15 @@ import { appRoutes } from './app.routes'
 import { AppComponent }  from './app.component';
 import { SideBarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpModule, appRoutes ],
   declarations: [ 
     AppComponent,
     SideBarComponent,
-    HeaderComponent
+    HeaderComponent,
+    DashboardComponent    
  ],
   bootstrap:    [ AppComponent ]
 })
